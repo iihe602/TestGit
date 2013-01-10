@@ -8,6 +8,7 @@
 
 //new line
 
+
 #import "AppDelegate.h"
 
 #import "ViewController.h"
@@ -21,6 +22,9 @@
     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    
+    //在同一位置增加行，试验冲突
+    
     return YES;
 }
 
