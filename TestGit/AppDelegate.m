@@ -24,6 +24,7 @@
     [self.window makeKeyAndVisible];
     
     //在同一位置增加行，试验冲突
+    //add a line again.
     
     return YES;
 }
